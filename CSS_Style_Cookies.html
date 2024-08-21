@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Module 7 Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="A showcase of the learned list formatting skills with HTML">
+        <meta name="author" content="Taylor Manhard">
+    </head>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 1;
+            background-color: #f09f9f
+        }
+
+        #main-header {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 2em;
+            color:blueviolet;
+            background-color: beige;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .recipe-container {
+            border: 1.5px solid #1c0224;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            max-width: 800px;
+            background-color:rgb(190, 105, 71)
+        }
+
+        .recipe-container a {
+            color:rgb(43, 102, 230);
+            text-decoration: none,
+        }
+
+        .recipe-container a:hover {
+            color: rgba(116, 10, 116, 0.267);
+            text-decoration: underline;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .ingredients-heading, .steps-heading {
+            font-family: 'Georgia', serif;
+            font-size: 1em;
+            color:rgb(43, 102, 230);
+            padding-left: 20px;
+        }
+
+        .ingredients-heading {
+            font-size: 1.5em;
+            background-color: blanchedalmond;
+            padding: 10px;
+        }
+
+        .steps-heading {
+            font-size: 1.5em;
+        }
+
+        ul {
+            font-family: 'Times New Roman', serif;
+            margin: 20px;
+            padding: 20px
+        }
+
+        ul li{
+            margin-bottom: 15px;
+        }
+
+        ol {
+            font-family: 'Verdana', sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        ol li {
+            margin-bottom: 15px;
+        }
+
+        #footer {
+            font-family: 'Courier New', 'Courier New', Courier, monospace;
+            font-size: 1em;
+            color:blueviolet;
+            background-color: beige;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <header id="main-header">
+        <h1>Welcome to the Recipes Assignment by Taylor</h1>
+        <p>This is the code for this assignment</p>
+        </header>
+
+        <div class="recipe-container">
+        
+            <h2 class="ingredients-heading">Ingredients:</h2>
+            <ul>
+                <li>1 cup (2 sticks) unsalted butter, softened</li>
+                <li>3/4 cup granulated sugar</li>
+                <li>3/4 cup packed brown sugar</li>
+                <li>1 teaspoon vanilla extract</li>
+                <li>2 large eggs</li>
+                <li>2 1/4 cups all-purpose flour</li>
+                <li>1 teaspoon baking soda<li>
+                <li>1/2 teaspoon salt</li>
+                <li>2 cups semisweet chocolate chips</li>
+                <li>1 cup chopped nuts (optional)</li>
+            </ul>
+
+
+            <h3 class="steps-heading">Steps:</h3>
+            <ol>
+                <li>Preheat the oven to 375°F (190°C). Line baking sheets with parchment paper or silicone baking mats.</li>
+                <li>In a large mixing bowl, cream together the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.</li>
+                <li>Add the eggs, one at a time, beating well after each addition.</li>
+                <li>In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</li>
+                <li>Stir in the chocolate chips and chopped nuts (if using) until evenly distributed throughout the dough.</li>
+                <li>Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.</li>
+                <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges are golden brown.</li>
+                <li>Remove from the oven and allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+            </ol>
+
+            <p>If this recipe does not meet your needs, give this recipe a try: <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016">Ghirardelli Chocolate Chip Cookies</a></p>
+        </div>
+
+
+        <footer id="footer">
+            <p>Recipe from HTML basics design, design by Taylor Manhard</p>
+        </footer>
